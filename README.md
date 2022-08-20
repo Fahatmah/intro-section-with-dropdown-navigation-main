@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Dropdown Navigation FEM Challenge](https://github.com/Fahatmah/intro-section-with-dropdown-navigation-main.git)
+- Live Site URL: [Dropdown Navigation FEM Challenge](https://dropdown-fem-challenge.netlify.app/)
 
 ## My process
 
