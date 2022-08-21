@@ -166,11 +166,29 @@ button {
 }
 
 .menu-icon {
+	position: relative;
+	z-index: 40;
 	width: 2rem;
 }
 
 .close-icon {
 	width: 1.8rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(0, 0%, 0%);
+  opacity: 0;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+}
+
+.overlay.show-overlay {
+	opacity: 0.3;
 }
 
 .nav {
@@ -179,6 +197,7 @@ button {
 	right: 0;
 	opacity: 0;
 	pointer-events: none;
+	z-index: 40;
 	width: 15rem;
 	height: 100vh;
 	padding: 1.4rem;
