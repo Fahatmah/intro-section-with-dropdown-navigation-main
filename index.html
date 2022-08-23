@@ -1,184 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./images/favicon-32x32.png"
-		/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-		<title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-		<link rel="stylesheet" href="css/stylesheet.css" />
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body class="bg-clr-200">
-		<header class="container-w">
-			<div class="container-one">
-				<img src="/images/logo.svg" class="logo" alt="snap" />
-				<img src="/images/icon-menu.svg" class="menu-icon" alt="" />
-				<div class="nav">
-					<div class="nav-one">
-						<img src="/images/icon-close-menu.svg" class="close-icon" alt="" />
-						<ul class="lists">
-							<li class="list list-one">
-								<button class="drop-menu-button one / neutral-clr-600 / fs-500">
-									Features
-								</button>
-								<ul class="sub-nav one bg-clr-200">
-									<li>
-										<a href="#" class="neutral-clr-600 / fs-500"
-											><img
-												src="/images/icon-todo.svg"
-												class="icon-size"
-												alt=""
-											/>
-											Todo List</a
-										>
-									</li>
-									<li>
-										<a href="#" class="neutral-clr-600 / fs-500"
-											><img
-												src="/images/icon-calendar.svg"
-												class="icon-size"
-												alt=""
-											/>
-											Calendar</a
-										>
-									</li>
-									<li>
-										<a href="#" class="neutral-clr-600 / fs-500"
-											><img
-												src="/images/icon-reminders.svg"
-												class="icon-size"
-												alt=""
-											/>
-											Reminders</a
-										>
-									</li>
-									<li>
-										<a href="#" class="neutral-clr-600 / fs-500"
-											><img
-												src="/images/icon-planning.svg"
-												class="icon-size"
-												alt=""
-											/>
-											Planning</a
-										>
-									</li>
-								</ul>
-							</li>
-							<li class="list list-two">
-								<button class="drop-menu-button two / neutral-clr-600 / fs-500">
-									Company
-								</button>
-								<ul class="sub-nav two bg-clr-200">
-									<li>
-										<a href="#" class="neutral-clr-600 / fs-500">History</a>
-									</li>
-									<li>
-										<a href="#" class="neutral-clr-600 / fs-500">Our Team</a>
-									</li>
-									<li><a href="#" class="neutral-clr-600 / fs-500">Blog</a></li>
-								</ul>
-							</li>
-							<li><a href="#" class="neutral-clr-600 / fs-500">Careers</a></li>
-							<li><a href="#" class="neutral-clr-600 / fs-500">About</a></li>
-						</ul>
-					</div>
+  <link rel="stylesheet" href="css/stylesheet.css" />
 
-					<div class="nav-two">
-						<ul>
-							<li>
-								<a href="#" class="neutral-clr-600 / fs-500">Login</a>
-							</li>
-							<li>
-								<a href="#" class="neutral-clr-600 / button-border-clr / fs-500"
-									>Register</a
-								>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="overlay"></div>
-			</div>
-		</header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet" />
+</head>
 
-		<main>
-			<div class="columns">
-				<div class="column-one">
-					<div class="main-container-one">
-						<h1 class="neutral-clr-800 / fs-heading / fw-bold">
-							Make remote work
-						</h1>
-						<p
-							class="neutral-clr-600 / fw-reg / fs-paragraph / line-height-200"
-						>
-							Get your team in sync, no matter your location. Streamline
-							processes, create team rituals, and watch productivity soar.
-						</p>
-						<a
-							href="#"
-							class="neutral-clr-200 / button-clr / button-border-clr / fs-learn-more-btn"
-							>Learn more</a
-						>
-					</div>
+<body class="bg-clr-200">
+  <header class="container-w">
+    <div class="container-one">
+      <img src="/images/logo.svg" class="logo" alt="snap" />
+      <img src="/images/icon-menu.svg" class="menu-icon" alt="" />
+      <div class="nav">
+        <div class="nav-one">
+          <img src="/images/icon-close-menu.svg" class="close-icon" alt="" />
+          <ul class="lists">
+            <li class="list list-one">
+              <button class="drop-menu-button one / neutral-clr-600 / fs-500">
+                Features
+              </button>
+              <ul class="sub-nav one bg-clr-200">
+                <li>
+                  <a href="#" class="neutral-clr-600 / fs-500">
+                    <img src="/images/icon-todo.svg" class="icon-size" alt="" />
+                    Todo List
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="neutral-clr-600 / fs-500">
+                    <img src="/images/icon-calendar.svg" class="icon-size" alt="" />
+                    Calendar
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="neutral-clr-600 / fs-500">
+                    <img src="/images/icon-reminders.svg" class="icon-size" alt="" />
+                    Reminders
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="neutral-clr-600 / fs-500">
+                    <img src="/images/icon-planning.svg" class="icon-size" alt="" />
+                    Planning
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="list list-two">
+              <button class="drop-menu-button two / neutral-clr-600 / fs-500">
+                Company
+              </button>
+              <ul class="sub-nav two bg-clr-200">
+                <li>
+                  <a href="#" class="neutral-clr-600 / fs-500">History</a>
+                </li>
+                <li>
+                  <a href="#" class="neutral-clr-600 / fs-500">Our Team</a>
+                </li>
+                <li><a href="#" class="neutral-clr-600 / fs-500">Blog</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="neutral-clr-600 / fs-500">Careers</a></li>
+            <li><a href="#" class="neutral-clr-600 / fs-500">About</a></li>
+          </ul>
+        </div>
 
-					<div class="main-container-two">
-						<img
-							src="images/client-databiz.svg"
-							class="platform-size"
-							alt="client-databiz"
-						/>
-						<img
-							src="images/client-audiophile.svg"
-							class="platform-size"
-							alt="client-audiophile"
-						/>
-						<img
-							src="images/client-meet.svg"
-							class="platform-size"
-							alt="client-meet"
-						/>
-						<img
-							src="images/client-maker.svg"
-							class="platform-size"
-							alt="client-maker"
-						/>
-					</div>
-				</div>
-				<div class="column-two">
-					<img src="/images/image-hero-mobile.png" alt="" class="mobile-hero" />
-					<img
-						src="/images/image-hero-desktop.png"
-						alt=""
-						class="desktop-hero"
-					/>
-				</div>
-			</div>
-		</main>
+        <div class="nav-two">
+          <ul>
+            <li>
+              <a href="#" class="neutral-clr-600 / fs-500">Login</a>
+            </li>
+            <li>
+              <a href="#" class="neutral-clr-600 / button-border-clr / fs-500">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+  </header>
 
-		<footer class="attribution">
-			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-				>Frontend Mentor</a
-			>. Coded by
-			<a href="https://www.frontendmentor.io/profile/Fahatmah" target="_blank"
-				>Fahatmah</a
-			>.
-		</footer>
+  <main>
+    <div class="columns">
+      <div class="column-one">
+        <div class="main-container-one">
+          <h1 class="neutral-clr-800 / fs-heading / fw-bold">
+            Make remote work
+          </h1>
+          <p class="neutral-clr-600 / fw-reg / fs-paragraph / line-height-200">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a href="#" class="neutral-clr-200 / button-clr / button-border-clr / fs-learn-more-btn">Learn more</a>
+        </div>
 
-		<script src="script.js"></script>
-	</body>
+        <div class="main-container-two">
+          <img src="images/client-databiz.svg" class="platform-size" alt="client-databiz" />
+          <img src="images/client-audiophile.svg" class="platform-size" alt="client-audiophile" />
+          <img src="images/client-meet.svg" class="platform-size" alt="client-meet" />
+          <img src="images/client-maker.svg" class="platform-size" alt="client-maker" />
+        </div>
+      </div>
+      <div class="column-two">
+        <img src="/images/image-hero-mobile.png" alt="" class="mobile-hero" />
+        <img src="/images/image-hero-desktop.png" alt="" class="desktop-hero" />
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+    <a href="https://www.frontendmentor.io/profile/Fahatmah" target="_blank">Fahatmah</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
