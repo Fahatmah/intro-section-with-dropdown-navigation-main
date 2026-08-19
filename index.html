@@ -126,6 +126,27 @@
   </footer>
 
   <script src="script.js"></script>
+  <!-- Begin POF Bot Widget -->
+		<script type="text/javascript">
+			;(function (w, d) {
+				w.POFBotConfig = {
+					apiBaseUrl: 'https://7wbu03uf69.execute-api.ap-southeast-1.amazonaws.com/default',
+					botId: 'snap-helper',
+					sourceApp: 'snap-landing',
+					defaultName: 'Snap Helper',
+					defaultWelcome: "Hi! I'm the Snap Helper. How can I help you?",
+					quickActions: ['Hello', 'About Snap', 'Products', 'Support'],
+				}
+				if (w.POFBotWidgetLoaded) return
+				var script = d.createElement('script')
+				script.type = 'text/javascript'
+				script.async = true
+				script.src = 'https://bot-simple.netlify.app/bot-widget.js'
+				var firstScript = d.getElementsByTagName('script')[0]
+				firstScript.parentNode.insertBefore(script, firstScript)
+			})(window, document)
+		</script>
+		<!-- End POF Bot Widget -->
 </body>
 
 </html>
